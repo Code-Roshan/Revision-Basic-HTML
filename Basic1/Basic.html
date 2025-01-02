@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <title>Learn HTML</title>
+</head>
+<body>
+    <!-- Visible content for the webpage starts here -->
+
+    <!-- Heading tags: Define headings with different levels of importance -->
+    <h1>Most important heading</h1>
+    <h2>Second most important heading</h2>
+    <h3>Third most important heading</h3>
+    <h4>Fourth most important heading</h4>
+    <h5>Fifth most important heading</h5>
+    <h6>Sixth most important heading</h6>
+
+    <!-- Paragraph tag: Used to create a block of text -->
+    <p>This is a paragraph.</p>
+
+    <!-- Anchor tag: Used to create hyperlinks -->
+    If you want to go to YouTube, <a href="https://www.youtube.com">click here</a>.
+
+    <!-- Image tag: Displays an image; src is the image source, alt provides alternative text -->
+    <p>This is an image of an apple: <img src="apple.png" alt="apple" width="100" height="100"></p>
+
+    <!-- Video tag: Embeds a video in the webpage -->
+    <video src="video.mp4" width="200" height="200" autoplay muted controls>Video not supported</video>
+
+    <!-- Alternative method to embed videos using source tag -->
+    <video width="200" height="200" autoplay muted controls>
+        <source src="video.mp4" type="video/mp4">
+        Video not supported
+    </video>
+
+    <!-- Embedding a YouTube video using iframe -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xQFcwgjEFOQ?si=0kvh4BUHwtBix79z" 
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+
+    <!-- Text formatting: Bold, italic, and underline -->
+    <b>This is bold text</b>
+    <i>This is italic text</i>
+    <u>This is underlined text</u>
+
+    <!-- Line break: Moves text to a new line -->
+    <p>This is the first line <br> This is the second line.</p>
+
+    <!-- Big and small text: Adjust text size -->
+    <big>This is big text</big>
+    <small>This is small text</small><br>
+
+    <!-- Horizontal line: Creates a visual separator -->
+    Above line<hr>Below line
+
+    <!-- Preformatted text: Displays text as written in HTML (including spaces and line breaks) -->
+    <p>Without pre tag:</p>
+    <p>
+        Hi
+        I love you
+        I miss                   you        so       much
+    </p>
+    <p>With pre tag:</p>
+    <pre>
+        Hi
+        I love you
+        I miss                   you        so       much
+    </pre>
+
+    <!-- Subscript and superscript examples -->
+    This is subscript: H<sub>2</sub>O<br>
+    This is superscript: x<sup>2</sup>
+
+    <!-- HTML Form: Collects user input -->
+    <form action="/submit.php">
+        <!-- Name input -->
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+
+        <!-- Phone number input -->
+        <div>
+            <label for="phone">Phone</label>
+            <input type="number" id="phone" placeholder="Enter your phone number">
+        </div>
+
+        <!-- Email input -->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <!-- Password input -->
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+
+        <!-- Date input -->
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+        </div>
+
+        <!-- Radio buttons -->
+        <div>
+            <p>Select your favorite fruit:</p>
+            <label><input type="radio" name="fruit" value="apple"> Apple</label><br>
+            <label><input type="radio" name="fruit" value="banana"> Banana</label><br>
+            <label><input type="radio" name="fruit" value="cherry"> Cherry</label><br>
+            <label><input type="radio" name="fruit" value="date"> Date</label>
+        </div>
+
+        <!-- Checkbox inputs -->
+        <div>
+            <p>Select your preferred fruits:</p>
+            <label><input type="checkbox" name="fruit" value="apple"> Apple</label><br>
+            <label><input type="checkbox" name="fruit" value="banana"> Banana</label><br>
+            <label><input type="checkbox" name="fruit" value="cherry"> Cherry</label><br>
+            <label><input type="checkbox" name="fruit" value="date"> Date</label>
+        </div>
+
+        <!-- Textarea input -->
+        <div>
+            <label for="comment">Comment</label>
+            <textarea id="comment" placeholder="Enter your comment"></textarea>
+        </div>
+
+        <!-- Dropdown menu -->
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value="" disabled selected>Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Styling with span -->
+    <span style="color: red;">This is red text</span>
+
+    <!-- Lists in HTML -->
+    <h1>Lists in HTML</h1>
+    
+    <!-- Ordered list -->
+    <h2>Ordered list:</h2>
+    <ol>
+        <li>This is the first item</li>
+        <li>This is the second item</li>
+        <li>This is the third item</li>
+    </ol>
+
+    <!-- Unordered list -->
+    <h2>Unordered list:</h2>
+    <ul>
+        <li>This is the first item</li>
+        <li>This is the second item</li>
+        <li>This is the third item</li>
+    </ul>
+
+    <!-- Description list -->
+    <h2>Description list:</h2>
+    <dl>
+        <dt>Term</dt>
+        <dd>Description of the term</dd>
+
+        <dt>Computer</dt>
+        <dd>An electronic device that processes data and provides output.</dd>
+
+        <dt>Mouse</dt>
+        <dd>An input device.</dd>
+    </dl>
+
+    <!-- Tables in HTML -->
+    <h1>Table in HTML</h1>
+    <table border="1">
+        <!-- Table head -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
+                <td rowspan="3">Row span example</td>
+            </tr>
+        </thead>
+
+        <!-- Table body -->
+        <tbody>
+            <tr>
+                <td>Roshan</td>
+                <td>21</td>
+                <td>Kathmandu</td>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>22</td>
+                <td>Pokhara</td>
+            </tr>
+            <tr>
+                <td colspan="3">Colspan example</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Page layout tags: header, main, footer -->
+    <header>
+        <h1>This is the header</h1>
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="https://www.linkedin.com/in/roshan-acharya-987090214/" target="_blank">LinkedIn</a>
+        </nav>
+    </header>
+
+    <main>
+        <div>This content is inside the first div.</div>
+        <div>This content is inside the second div.</div>
+
+        <section>
+            <article>
+                This is an article inside a section.
+            </article>
+        </section>
+
+        <aside>
+            This is an aside for additional content.
+        </aside>
+    </main>
+
+    <footer>
+        <h1>This is the footer</h1>
+    </footer>
+</body>
+</html>

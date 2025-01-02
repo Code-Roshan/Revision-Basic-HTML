@@ -1,0 +1,131 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+    margin: 20px 0;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background: #0073e6;
+    color: white;
+}
+
+/* List Styling */
+ul, ol {
+    margin: 10px 0 10px 20px;
+}
+
+dl {
+    margin: 10px 0;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

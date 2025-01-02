@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Revision Notes</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>HTML Revision Notes</h1>
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="https://www.linkedin.com/in/roshan-acharya-987090214/" target="_blank">LinkedIn</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Headings</h2>
+            <h1>Most important heading</h1>
+            <h2>Second most important heading</h2>
+            <h3>Third most important heading</h3>
+            <h4>Fourth most important heading</h4>
+            <h5>Fifth most important heading</h5>
+            <h6>Sixth most important heading</h6>
+        </section>
+
+        <section>
+            <h2>Paragraphs and Text Formatting</h2>
+            <p>This is a paragraph tag.</p>
+            <p><b>This is bold text</b></p>
+            <p><i>This is italic text</i></p>
+            <p><u>This is underlined text</u></p>
+            <p><big>This is big text</big></p>
+            <p><small>This is small text</small></p>
+        </section>
+
+        <section>
+            <h2>Links and Images</h2>
+            <p>If you want to go to YouTube, <a href="https://www.youtube.com">PRESS</a>.</p>
+            <p>This is an image of an apple: <img src="apple.png" alt="apple" width="100" height="100"></p>
+        </section>
+
+        <section>
+            <h2>Videos</h2>
+            <video src="video.mp4" height="200" width="200" autoplay muted controls>Play</video>
+            <video height="200" width="200" autoplay muted controls>
+                <source src="video.mp4" type="video/mp4">
+                This video is not supported.
+            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xQFcwgjEFOQ?si=0kvh4BUHwtBix79z" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Forms</h2>
+            <form action="/submit.php">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <label for="phone">Phone:</label>
+                <input type="number" id="phone" placeholder="Enter your phone number">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password">
+
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+
+                <fieldset>
+                    <legend>Favorite Fruit</legend>
+                    <label><input type="radio" name="fruit" value="apple"> Apple</label><br>
+                    <label><input type="radio" name="fruit" value="banana"> Banana</label><br>
+                    <label><input type="radio" name="fruit" value="cherry"> Cherry</label><br>
+                    <label><input type="radio" name="fruit" value="date"> Date</label>
+                </fieldset>
+
+                <textarea id="comment" placeholder="Enter your comment"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Lists</h2>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>This is the first item</li>
+                <li>This is the second item</li>
+                <li>This is the third item</li>
+            </ol>
+
+            <h3>Unordered List</h3>
+            <ul>
+                <li>This is the first item</li>
+                <li>This is the second item</li>
+                <li>This is the third item</li>
+            </ul>
+
+            <h3>Description List</h3>
+            <dl>
+                <dt>Computer</dt>
+                <dd>An electronic device that processes data and provides output.</dd>
+                <dt>Mouse</dt>
+                <dd>An input device.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Tables</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Roshan</td>
+                        <td>21</td>
+                        <td>Kathmandu</td>
+                    </tr>
+                    <tr>
+                        <td>Ram</td>
+                        <td>22</td>
+                        <td>Pokhara</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <h1>Footer Section</h1>
+    </footer>
+</body>
+
+</html>
